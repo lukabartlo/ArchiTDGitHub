@@ -10,7 +10,7 @@ public class Chest : TickingBuilding
         
     }
     
-    private void override Die()
+    protected override void Die()
     {
         
     }

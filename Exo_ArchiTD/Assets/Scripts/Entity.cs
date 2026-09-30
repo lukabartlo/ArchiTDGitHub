@@ -10,17 +10,17 @@ public abstract class Entity : MonoBehaviour
     Collider2D collider;
     Rigidbody2D rb;
     
-    private virtual void TakeDamage(int damage)
+    protected virtual void TakeDamage(int damage)
     {
         HP -= damage;
     }
     
-    private virtual void healDamage(int damage)
+    protected virtual void healDamage(int damage)
     {
         HP += damage;
     }
 
-    private virtual void Die()
+    protected virtual void Die()
     {
         
     }

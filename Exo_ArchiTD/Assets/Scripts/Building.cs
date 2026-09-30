@@ -21,6 +21,7 @@ public abstract class Building : Entity
 
     bool CanBePlaced()
     {
+        //check si la tour est sur un terrain ou l'on peut la poser
         return true;
     }
     

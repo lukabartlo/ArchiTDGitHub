@@ -9,6 +9,6 @@ public abstract class Enemy : Entity
 
     private void Attack(Building target)
     {
-        
+        target.
     }
 }
